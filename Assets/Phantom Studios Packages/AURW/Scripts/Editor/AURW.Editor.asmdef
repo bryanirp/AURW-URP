@@ -1,0 +1,18 @@
+{
+    "name": "AURW.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d06b4a45426649e4e80cc21399fdf938"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
