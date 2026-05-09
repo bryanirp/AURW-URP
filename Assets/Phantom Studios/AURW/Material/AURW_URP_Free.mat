@@ -14,14 +14,15 @@ Material:
   m_ValidKeywords:
   - _NORMAL
   - _REFRACTION
-  m_InvalidKeywords: []
-  m_LightmapFlags: 1
+  m_InvalidKeywords:
+  - _EMISSION
+  m_LightmapFlags: 3
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _IOR
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -123,7 +124,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
-    - _Depth_Distance: 0.43
+    - _Depth_Distance: 5
     - _Depth_Strength: 1
     - _Depth_distance: 1.5
     - _DetailAlbedoMapScale: 1
@@ -131,32 +132,32 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Foam_Distance: 20
+    - _Foam_Distance: 50
     - _Foam_Scale: 17
     - _Foam_Seed: 50
     - _Foam_Speed_Fix: 5
-    - _Foam_Tilling_Fix: 1.6
+    - _Foam_Tilling_Fix: 5
     - _Foam_Volume: 0.91
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _IOR: 1.33333
+    - _IOR: 1.33
     - _IORefraction: 23.18
     - _Metallic: 0
     - _NORMAL: 1
-    - _Normal_Strength: 0.2
+    - _Normal_Strength: 0.12
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _REFRACTION: 1
     - _ReceiveShadows: 1
-    - _Refraction_Strength: 0.25
+    - _Refraction_Strength: 0.015
     - _Second_Direction_Factor: -0.1
     - _Smoothness: 0.95
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 0.17
+    - _Speed: 0.81
     - _Speed_Factor: 20
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
@@ -176,7 +177,7 @@ Material:
     - _Foam_Color: {r: 1, g: 1, b: 1, a: 3}
     - _Sjy: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Specular: {r: 0.5, g: 0.47999996, b: 0.41999996, a: 1}
+    - _Specular: {r: 0.199, g: 0.1904157, b: 0.16700393, a: 1}
     - _Stain_color: {r: 0.15, g: 0.65, b: 0.8, a: 1}
     - _Water_Near_Color: {r: 0, g: 0.49019608, b: 1, a: 0.9490196}
     - _Water_color: {r: 0.13333334, g: 0.3882353, b: 0.62352943, a: 0.9490196}
@@ -194,4 +195,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 10

@@ -1,2 +1,9 @@
 fileFormatVersion: 2
 guid: 78f4a609d2bc0ae49bdfea0f3662d847
+AssetOrigin:
+  serializedVersion: 1
+  productId: 195139
+  packageName: A.U.R.W. URP Free
+  packageVersion: 4.1
+  assetPath: Assets/Phantom Studioss/AURW/Scripts/Editor/AURW_FreeShaderGUI.cs
+  uploadId: 768540

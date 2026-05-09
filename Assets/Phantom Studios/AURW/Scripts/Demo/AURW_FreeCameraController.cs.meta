@@ -1,2 +1,9 @@
 fileFormatVersion: 2
 guid: 5da51b0dcb41e1e4495909312c9965e6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 195139
+  packageName: A.U.R.W. URP Free
+  packageVersion: 4.1
+  assetPath: Assets/Phantom Studioss/AURW/Scripts/Demo/AURW_FreeCameraController.cs
+  uploadId: 768540
