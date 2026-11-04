@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 77d7654ba567d214da351938d67bbf32
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 60072b568d64c40a485e0fc55012dc9f, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 195139
+  packageName: A.U.R.W. URP Free
+  packageVersion: 4.1
+  assetPath: Assets/AURW/Free/Shaders/Subgraphs/AURW_SceneColorCustom.shadersubgraph
+  uploadId: 768540
