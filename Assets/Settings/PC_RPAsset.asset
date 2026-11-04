@@ -17,11 +17,11 @@ MonoBehaviour:
   m_RendererType: 1
   m_RendererData: {fileID: 0}
   m_RendererDataList:
-  - {fileID: -6384197875616562540, guid: f288ae1f4751b564a96ac7587541f7a2, type: 2}
+  - {fileID: 11400000, guid: f288ae1f4751b564a96ac7587541f7a2, type: 2}
   m_DefaultRendererIndex: 0
   m_RequireDepthTexture: 1
   m_RequireOpaqueTexture: 1
-  m_OpaqueDownsampling: 3
+  m_OpaqueDownsampling: 1
   m_SupportsTerrainHoles: 1
   m_SupportsHDR: 1
   m_HDRColorBufferPrecision: 0
@@ -58,8 +58,8 @@ MonoBehaviour:
   m_ShadowCascadeCount: 4
   m_Cascade2Split: 0.25
   m_Cascade3Split: {x: 0.1, y: 0.3}
-  m_Cascade4Split: {x: 0.19999999, y: 0.39999995, z: 0.59999996}
-  m_CascadeBorder: 0.49999997
+  m_Cascade4Split: {x: 0.12299999, y: 0.2926, z: 0.53599995}
+  m_CascadeBorder: 0.107758604
   m_ShadowDepthBias: 0.1
   m_ShadowNormalBias: 0.5
   m_AnyShadowsSupported: 1
@@ -74,7 +74,6 @@ MonoBehaviour:
   m_MixedLightingSupported: 1
   m_SupportsLightCookies: 1
   m_SupportsLightLayers: 1
-  m_DebugLevel: 0
   m_StoreActionsOptimization: 0
   m_UseAdaptivePerformance: 1
   m_ColorGradingMode: 0
@@ -84,8 +83,8 @@ MonoBehaviour:
   m_SupportDataDrivenLensFlare: 1
   m_SupportScreenSpaceLensFlare: 1
   m_GPUResidentDrawerMode: 0
-  m_SmallMeshScreenPercentage: 1.94
-  m_GPUResidentDrawerEnableOcclusionCullingInCameras: 1
+  m_SmallMeshScreenPercentage: 0
+  m_GPUResidentDrawerEnableOcclusionCullingInCameras: 0
   m_ShadowType: 1
   m_LocalShadowsSupported: 0
   m_LocalShadowsAtlasResolution: 256
@@ -101,31 +100,33 @@ MonoBehaviour:
       m_Keys: []
       m_Values: 
   m_PrefilteringModeMainLightShadows: 3
-  m_PrefilteringModeAdditionalLight: 0
-  m_PrefilteringModeAdditionalLightShadows: 2
+  m_PrefilteringModeAdditionalLight: 4
+  m_PrefilteringModeAdditionalLightShadows: 0
   m_PrefilterXRKeywords: 1
-  m_PrefilteringModeForwardPlus: 2
+  m_PrefilteringModeForwardPlus: 1
   m_PrefilteringModeDeferredRendering: 0
-  m_PrefilteringModeScreenSpaceOcclusion: 0
+  m_PrefilteringModeScreenSpaceOcclusion: 1
+  m_PrefilteringModeScreenSpaceReflection: 1
+  m_PrefilterWriteSmoothness: 1
   m_PrefilterDebugKeywords: 1
-  m_PrefilterWriteRenderingLayers: 1
+  m_PrefilterWriteRenderingLayers: 0
   m_PrefilterHDROutput: 1
-  m_PrefilterAlphaOutput: 1
-  m_PrefilterSSAODepthNormals: 1
+  m_PrefilterAlphaOutput: 0
+  m_PrefilterSSAODepthNormals: 0
   m_PrefilterSSAOSourceDepthLow: 1
   m_PrefilterSSAOSourceDepthMedium: 1
   m_PrefilterSSAOSourceDepthHigh: 1
   m_PrefilterSSAOInterleaved: 1
-  m_PrefilterSSAOBlueNoise: 1
+  m_PrefilterSSAOBlueNoise: 0
   m_PrefilterSSAOSampleCountLow: 1
-  m_PrefilterSSAOSampleCountMedium: 1
+  m_PrefilterSSAOSampleCountMedium: 0
   m_PrefilterSSAOSampleCountHigh: 1
   m_PrefilterDBufferMRT1: 1
   m_PrefilterDBufferMRT2: 1
-  m_PrefilterDBufferMRT3: 1
-  m_PrefilterSoftShadowsQualityLow: 1
-  m_PrefilterSoftShadowsQualityMedium: 1
-  m_PrefilterSoftShadowsQualityHigh: 1
+  m_PrefilterDBufferMRT3: 0
+  m_PrefilterSoftShadowsQualityLow: 0
+  m_PrefilterSoftShadowsQualityMedium: 0
+  m_PrefilterSoftShadowsQualityHigh: 0
   m_PrefilterSoftShadows: 0
   m_PrefilterScreenCoord: 1
   m_PrefilterScreenSpaceIrradiance: 0
